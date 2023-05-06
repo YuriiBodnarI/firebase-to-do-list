@@ -1,0 +1,22 @@
+.header{
+    width: 100%;
+    height: 400px;
+    background-image: url('../../assets/header_background.jpeg');
+    background-repeat: no-repeat;
+    background-position:  center top -150px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+
+    &::before{
+        background: rgb(33,26,170);
+        background: radial-gradient(circle, rgba(33,26,170,0.5186449579831933) 0%, rgba(152,23,149,0.700717787114846) 100%);
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+    }
+}
